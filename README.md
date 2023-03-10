@@ -16,7 +16,7 @@ VR for social and fully body interaction, DevOps to increase developer efficency
 
 ### Any Feedback on my work? Connect with me on [linkedin](https://www.linkedin.com/in/bowen-michael/)
 
-My Website: [bichaelmowen.com](bichaelmowen.com)
+My Website: [bichaelmowen.com](https://bichaelmowen.com)
 
 
 
