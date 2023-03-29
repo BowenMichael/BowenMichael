@@ -14,7 +14,8 @@ The significance of software and the internet is hard to understate. However, I 
 ### My Motivations 
 VR for social and fully body interaction, DevOps to increase developer efficency, and understanding the full stack of an application are core to my motivations as a developer. --!>
 
-### Any Feedback on my work? Connect with me on [linkedin](https://www.linkedin.com/in/bowen-michael/)
+### Any Feedback on my work? 
+Connect with me on [linkedin](https://www.linkedin.com/in/bowen-michael/)
 
 My Website: [bichaelmowen.com](https://bichaelmowen.com)
 
