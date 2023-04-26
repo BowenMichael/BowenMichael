@@ -1,7 +1,7 @@
 ## Oh! Hello there 👋
 
 ![image](https://user-images.githubusercontent.com/34144478/215238005-e0f79135-df27-45c7-aefb-201644eab5fe.png) 
-#### My name is Michael Bowen and I am a Game Developer. I specialize in game devops, gameplay, and REST API development. 
+#### My name is Michael Bowen and I am a Game Developer. I specialize in game devops, gameplay, and fullstack development. 
 
 ## Here are some of the projects I have been working on recently:
 * An Unreal Engine 5 game that utilizes Google Cloud + Jenkins to automate building and distributing the game. [Build Commands Repo](https://github.com/depth-grobblers/fa22-capstone-2022-23-t06-build-commands) 
