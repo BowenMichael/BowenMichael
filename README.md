@@ -1,6 +1,5 @@
 ## Oh! Hello there 👋
 
-![image](https://user-images.githubusercontent.com/34144478/215238005-e0f79135-df27-45c7-aefb-201644eab5fe.png) 
 #### My name is Michael Bowen and I am a Game Developer. I specialize in game devops, gameplay, and fullstack development. 
 
 ## Here are some of the projects I have been working on recently:
