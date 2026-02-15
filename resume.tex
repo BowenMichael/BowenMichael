@@ -1,0 +1,99 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+% ModernCV themes
+\moderncvstyle{casual} 
+\moderncvcolor{blue}                               
+
+% Character encoding
+\usepackage[utf8]{inputenc}                   
+
+% Adjust the page margins
+\usepackage[scale=0.82]{geometry}
+
+% Personal Data
+\name{Michael T.}{Bowen}
+\title{Systems Engineer | Software Engineer | Robotics Engineer}
+\address{Burlington, VT (Relocating to Nashville, TN)}{}{}
+\phone[mobile]{5856358255}
+\email{Michael@thebowenfamily.com}
+
+% Fix for extrainfo: removing the nested braces that caused the "Paragraph ended before \extrainfo was complete" error.
+\extrainfo{LinkedIn: linkedin.com/in/bowen-michael/ | GitHub: github.com/BowenMichael | bichaelmowen.com}
+
+%----------------------------------------------------------------------------------
+%            Content
+%----------------------------------------------------------------------------------
+\begin{document}
+\makecvtitle
+
+\section{Summary}
+Systems Software Engineer specializing in the intersection of C++ real-time control and modern web interfaces. Experienced in developing digital twins, computer vision (OpenCV), and hardware-in-the-loop simulations. Proven track record of translating complex physical constraints into intuitive, high-performance software solutions.
+
+\section{Skills}
+\cvitem{Systems \& Robotics}{C++, Fanuc (CRX/M-Series), Roboguide, Kinematics, Motion Planning, Deterministic State Machines, Dual Check Safety (DCS).}
+\cvitem{Vision \& Math}{OpenCV, HSV Filtering, ToF Sensors, 3D-to-World Coordinate Transformations, Linear Algebra, Spatial Partitioning.}
+\cvitem{Full-Stack \& Infra}{React, Next.js, Node.js, Python (Automation/ETL), Jenkins, Google Cloud Platform (GCP), MongoDB, PostgreSQL, ZCM (UDP), Linux, Git.}
+
+\section{Experience}
+\cventry{Jul 2024 -- Present}{Software Engineer I}{Rigorous Technology}{Burlington, VT}{}{
+Promoted from Intern to SE1 within one year for key contributions to ``The RIG'' (flagship generative palletizing system).
+\begin{itemize}
+    \item \textbf{Unified HMI Development:} Built React interfaces providing real-time telemetry, 3D mapping, and system configuration.
+    \item \textbf{Internal Tooling:} Engineered Python-based productivity tools, including a CLI PR-Wizard and an AI-driven engineering velocity aggregator (Jira, GitHub, Slack).
+\end{itemize}}
+
+\cventry{Project}{The RIG (Generative Palletizing Suite)}{}{}{}{
+\begin{itemize}
+    \item \textbf{Generative Motion Engine:} Architected a C++ logic layer for dynamic pallet pattern calculation and collision-free path planning.
+    \item \textbf{Data Engineering:} Developed a Python ETL pipeline to transform ZCM telemetry into structured dashboard data.
+    \item \textbf{Digital Twin Validation:} Developed high-fidelity simulations to stress-test logic against kinematic singularities.
+\end{itemize}}
+
+\cventry{Project}{Precision Cassette Scanner (Active)}{}{}{}{
+\begin{itemize}
+    \item \textbf{High-Reliability Inspection:} Developed an HSV-based chromatic filtering pipeline to monitor 275+ discrete pins across four cassettes simultaneously.
+    \item \textbf{Safety-Critical Metrics:} Achieved a 0\% false-negative rate for mission-critical defect detection, utilizing red-spectrum backlighting to optimize signal-to-noise ratios.
+\end{itemize}}
+
+\cventry{Project}{Virtual Camera Gluer System}{}{}{}{
+\begin{itemize}
+    \item \textbf{Spatial Transformation:} Engineered a 3D-to-world-space transformation system for "virtual camera" path planning.
+    \item \textbf{Hardware Abstraction:} Designed software to bypass physical mounting constraints by projecting conveyor data into a virtual workspace.
+\end{itemize}}
+
+\cventry{May 2022 -- Jun 2024}{Sole Full Stack Developer}{Cinquefoil Solutions}{Remote}{}{
+\begin{itemize}
+    \item \textbf{Full-Lifecycle Ownership:} Managed the technical roadmap from architectural design to deployment for a niche startup.
+    \item \textbf{System Architecture:} Engineered a custom CRM and automated quoting engine using React/Next.js and MongoDB.
+\end{itemize}}
+
+\cventry{Sep 2021 -- Dec 2021}{Real-time Simulation Developer}{Emergent Media Center}{Burlington, VT}{}{
+\begin{itemize}
+    \item \textbf{ALIA Aircraft (BETA Technologies):} Developed a mobile-optimized Unity interactive for trade show demonstrations of electric aircraft mechanics.
+    \item \textbf{Bio-Responsive VR (OVR Technologies):} Integrated scent-delivery hardware with Unity VR, engineering the communication layer for real-time sensory triggers.
+\end{itemize}}
+
+\section{Selected Technical Projects}
+\cventry{Lead Programmer}{Automated UE5 Build Pipeline}{DevOps}{}{}{
+\begin{itemize}
+    \item Developed a CI/CD pipeline for an Unreal Engine 5 title utilizing Google Cloud Platform (GCP) and Jenkins.
+    \item Automated the build, cook, and distribution processes to streamline development workflows for a cross-functional team.
+\end{itemize}}
+
+\cventry{Systems Lead}{Turbo-Hybrid Game Engine}{C++ / Systems}{}{}{
+\begin{itemize}
+    \item Architected a custom engine featuring a structured array of components and JSON data serialization.
+    \item Implemented a custom 3D renderer and core systems for high-performance data handling.
+\end{itemize}}
+
+\cventry{Developer}{Oculus Hand-Tracking VR Suite}{Unity / VR}{}{}{
+\begin{itemize}
+    \item Leveraged the Oculus hand-tracking library to create a controller-less VR interaction system.
+    \item Focused on high-fidelity spatial interaction and bio-responsive feedback.
+\end{itemize}}
+
+\section{Education}
+\cventry{2021}{B.S. in Game Programming}{Champlain College}{Burlington, VT}{GPA: 3.7}{
+Relevant Coursework: Advanced Kinematics, Real-time Networking, 3D Collision Detection, Physics for Engineers.}
+
+\end{document}
